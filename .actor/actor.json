@@ -1,0 +1,13 @@
+{
+    "actorSpecification": 1,
+    "name": "sec-filing-full-text-search",
+    "title": "SEC Filing Full-Text Search: Any Form, Any Keyword",
+    "description": "Search a keyword across every SEC filing type at once (10-K, 10-Q, 8-K, S-1, and more), not just one form. Get back matching filings with company, form type, item codes, and a direct link. No key, no proxy.",
+    "version": "0.1",
+    "meta": {
+        "templateId": "custom-no-proxy"
+    },
+    "input": "./input_schema.json",
+    "output": "./output_schema.json",
+    "dockerfile": "../Dockerfile"
+}
