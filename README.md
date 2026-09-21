@@ -59,6 +59,15 @@ Direct calls to the official SEC EDGAR full-text search API
 key, no scraping, no proxy. Coverage starts in 2001, matching EDGAR's own
 full-text search coverage window.
 
+## Pricing note
+
+Billed per **search**, not per filing returned, one charge whether the
+search matches 1 filing or 100 across every form type. Because this actor
+searches every SEC form type at once instead of one, it does more work per
+charge than this portfolio's single-form SEC trackers (8-K, S-1, 1-A,
+13D/13G, 13F), which is reflected in a slightly higher per-search price
+than those.
+
 ## Related products
 
 - [SEC 8-K Material Event Tracker](https://github.com/timmKal01/sec-8k-material-event-tracker): 8-K filings only, with item-code filtering and ticker lookup
