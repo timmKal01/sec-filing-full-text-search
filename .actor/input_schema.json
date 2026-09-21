@@ -7,7 +7,9 @@
             "title": "Search query",
             "type": "string",
             "editor": "textfield",
-            "description": "Keyword or exact phrase to search for across SEC filing text, e.g. \"data breach\" or \"going concern\"."
+            "description": "Keyword or exact phrase to search for across SEC filing text, e.g. \"data breach\" or \"going concern\".",
+            "prefill": "internal control",
+            "default": "internal control"
         },
         "forms": {
             "title": "Form types",
