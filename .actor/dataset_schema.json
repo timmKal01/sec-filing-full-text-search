@@ -1,0 +1,68 @@
+{
+    "actorSpecification": 1,
+    "fields": {},
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "transformation": {
+                "fields": [
+                    "companyName",
+                    "cik",
+                    "form",
+                    "rootForms",
+                    "items",
+                    "filingDate",
+                    "periodEnding",
+                    "fileDescription",
+                    "accessionNumber",
+                    "filingUrl"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "companyName": {
+                        "label": "Company name",
+                        "format": "text"
+                    },
+                    "cik": {
+                        "label": "CIK",
+                        "format": "text"
+                    },
+                    "form": {
+                        "label": "Form",
+                        "format": "text"
+                    },
+                    "rootForms": {
+                        "label": "Root forms",
+                        "format": "array"
+                    },
+                    "items": {
+                        "label": "Items",
+                        "format": "array"
+                    },
+                    "filingDate": {
+                        "label": "Filing date",
+                        "format": "text"
+                    },
+                    "periodEnding": {
+                        "label": "Period ending",
+                        "format": "text"
+                    },
+                    "fileDescription": {
+                        "label": "File description",
+                        "format": "text"
+                    },
+                    "accessionNumber": {
+                        "label": "Accession number",
+                        "format": "text"
+                    },
+                    "filingUrl": {
+                        "label": "Filing URL",
+                        "format": "link"
+                    }
+                }
+            }
+        }
+    }
+}
