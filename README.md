@@ -70,8 +70,8 @@ than those.
 
 ## Related products
 
-- [SEC 8-K Material Event Tracker](https://github.com/timmKal01/sec-8k-material-event-tracker): 8-K filings only, with item-code filtering and ticker lookup
-- [SEC 13D/13G Ownership Tracker](https://github.com/timmKal01/sec-13d-ownership-tracker): 5%+ ownership stake filings only
-- [SEC 13F Institutional Holdings Tracker](https://github.com/timmKal01/sec-13f-institutional-holdings-tracker): institutional fund holdings only
-- [SEC IPO Registration Tracker](https://github.com/timmKal01/sec-ipo-registration-tracker): new IPO registrations only
-- [SEC Regulation A+ Offering Tracker](https://github.com/timmKal01/sec-reg-a-offering-tracker): Reg A+ offerings only
+- [SEC 8-K Tracker](https://apify.com/m_ctim/sec-8k-material-event-tracker): 8-K filings only, with item-code filtering and ticker lookup
+- [SEC 13D/13G Tracker](https://apify.com/m_ctim/sec-13d-ownership-tracker): 5%+ ownership stake filings only
+- [SEC 13F Tracker](https://apify.com/m_ctim/sec-13f-institutional-holdings-tracker): institutional fund holdings only
+- [IPO Tracker](https://apify.com/m_ctim/sec-ipo-registration-tracker): new IPO registrations only
+- [Reg A+ Offering Tracker](https://apify.com/m_ctim/sec-reg-a-offering-tracker): Reg A+ offerings only
