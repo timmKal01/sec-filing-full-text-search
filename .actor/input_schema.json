@@ -36,5 +36,5 @@
             "maximum": 100
         }
     },
-    "required": ["query"]
+    "required": []
 }
