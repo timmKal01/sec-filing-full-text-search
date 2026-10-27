@@ -39,6 +39,7 @@ One record per matching filing:
 
 ```json
 {
+  "rowType": "filing",
   "companyName": "CONDUENT Inc  (CNDT)  (CIK 0001677703)",
   "cik": "0001677703",
   "form": "8-K",

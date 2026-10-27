@@ -27,7 +27,7 @@ const { results, totalMatches } = await searchFilings({
 });
 
 for (const filing of results) {
-    await Actor.pushData(filing);
+    await Actor.pushData({ rowType: 'filing', ...filing });
 }
 
 await Actor.charge({ eventName: FILING_SEARCH_EVENT });
